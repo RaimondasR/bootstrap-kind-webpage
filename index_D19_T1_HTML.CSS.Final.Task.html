@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>D19T1 | HTML CSS final project | CrocsTrap CSS Library</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/00bb76f184.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style_D19_T1.css">
+
+</head>
+
+<body class="flex center">
+
+  <div class="container flex column a-center">
+
+    <!-- Toolbar starts here -->
+    <div class="toolbar flex row space-btw">
+
+      <div class="flex row a-center">
+        <div>
+          <img class="im1" src="img/img_crocodile_lacoste.JPG" alt="crocodile lacoste picture">
+        </div>
+        <div class="c-b fw900">CROCS
+        </div>
+        <div class="c-str fw900 mr30 mb3">trap
+        </div>
+        <div class="c-b mr30">Home
+        </div>
+        <div class="fw900 c-b mr30">Docs
+        </div>
+        <div class="c-b mr30">Examples
+        </div>
+        <div class="c-b mr30">Icons
+        </div>
+          <div class="c-b mr30">Themes
+          </div>
+          <div class="c-b mr30">Blog
+          </div>
+      </div> <!-- end of div class="flex row a-center" -->
+
+      <div class="flex row space-btw a-center">        
+        <div class="mr10">Community
+        </div>
+        <div class="mr10">
+          <img class="im2" src="img/img_heresJohnny_TheShining.jpg" alt="image Here's Johnny from The Shining movie">          
+        </div>
+        <div class="mr10">
+          <img class="im2" src="img/img_crazyEyes_MrDeeds.jpg" alt="image Crazy Eyes from Mr. Deeds movie">
+        </div>
+        <div class="mr10">
+          <i class="fab fa-twitter" style="font-size:28px"></i>
+        </div>
+        <div class="mr10">
+          <i class="fab fa-facebook-square" style="font-size:28px"></i>
+        </div>
+        <div class="mr10">
+          <i class="fab fa-github" style="font-size:28px"></i>
+        </div>
+        <div class="btn btn-download fw900">Download         
+        </div>
+      </div> <!-- end of div class="flex row space-btw a-center" -->
+    </div> <!-- end of div class="toolbar" -->
+
+   <!-- Header starts here  -->
+   <div class="header flex row center a-center">
+     <div class="tx3em">Build fast web sites with
+     </div>
+     <div class="logo">
+     </div>
+     <div class="tx4em mr20 mb5">trap
+     </div>
+     <div class="tx3em">CSS library
+     </div>
+   </div> <!-- end of div class="header" -->
+
+   <!--  Main section starts here (includes sidebar and content divs) -->
+   <div class="main flex row">
+
+   <!-- Sidebar section starts here -->
+   <div class="sidebar flex column">
+     <ul class="list_comp">
+       <li class="fw900">> Components</li>
+       <li>Buttons</li>
+       <li>Cards</li>
+       <li>Pagination</li>
+       <li>Navigation</li>
+       <li>Modal</li>
+       <li>Progress Bars</li>
+       <li>Spinners</li>
+     </ul>
+     <ul class="list_util">
+       <li class="fw900">> Utility Classes</li>
+       <li>Flex Classes</li>
+       <li>Borders</li>
+       <li>Display</li>
+       <li>Opacity</li>
+       <li>Shadow</li>
+       <li>Padding</li>
+       <li>Margin</li>
+     </ul>
+   </div> <!-- end of div class="sidebar" -->
+
+   <!-- Content section starts here -->
+   <div class="content flex column">
+     
+     <div class="components">
+
+       <!-- Buttons section starts here -->
+       <div class="buttons flex column mb50">
+         <div class="tx48 c-str-b">Buttons
+         </div>
+         <div class="tx24 tx-j fmb20">Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.
+         </div>
+         <div class="tx36 mb10">Examples
+         </div>
+         <div class="tx20 tx-j mb20">Bootstrap includes several predefined button styles, each serving its own semantic purpose, with a few extras thrown in for more control.
+         </div>
+         <div class="mb20">
+           <button type="button" class="btn btn-primary">Primary</button>
+           <button type="button" class="btn btn-secondary">Secondary</button>
+           <button type="button" class="btn btn-success">Success</button>
+           <button type="button" class="btn btn-danger">Danger</button>
+         </div>
+         <div class="code_xmp_area grow1">
+           <xmp><button type="button" class="btn btn-primary">Primary</button></xmp>
+           <xmp><button type="button" class="btn btn-secondary">Secondary</button></xmp>
+           <xmp><button type="button" class="btn btn-success">Success</button></xmp>
+           <xmp><button type="button" class="btn btn-danger">Danger</button></xmp>
+         </div>
+       </div>  <!-- end of div class="buttons" -->
+
+       <!-- Cards section starts here -->
+       <div class="cards mb50">
+         <div class="tx48 c-str-b">Cards
+         </div>
+         <div class="tx24 tx-j mb20">Bootstrap’s cards provide a flexible and extensible content container with multiple variants and options.
+         </div>
+         <div class="tx36 mb10">About
+         </div>
+         <div class="tx20 tx-j mb20">A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options. If you’re familiar with Bootstrap 3, cards replace our old panels, wells, and thumbnails. Similar functionality to those components is available as modifier classes for cards.
+         </div>
+         <div class="tx36 mb10">Example
+         </div>
+         <div class="tx20 tx-j mb20">Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components. They have no margin by default, so use spacing utilities as needed.
+           Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they’ll naturally fill the full width of its parent element. This is easily customized with our various sizing options.
+         </div>
+         
+         <div class="card1 flex column mb20">
+           <div class="card1_img grow1">
+           </div>
+           <div class="grow1 p20">
+             <h3 class="card-title">Card title</h3>
+             <p class="card-text tx-j">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <a href="#" class="btn btn-primary">Go somewhere</a>
+           </div>
+         </div> <!-- end of div class="card1" -->
+         <div class="code_xmp_area mb20">
+           <xmp><div class="card" style="width: 18rem;"></xmp>
+           <xmp>   <img src="..." class="card-img-top" alt="..."></xmp>
+           <xmp>   <div class="card-body"></xmp>
+           <xmp>       <h5 class="card-title">Card title</h5></xmp>
+           <xmp>       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p></xmp>
+           <xmp>       <a href="#" class="btn btn-primary">Go somewhere</a></xmp>
+           <xmp>   </div></xmp>
+           <xmp></div></xmp>
+         </div>
+         <div class="tx36 mb10">Titles, text, and links
+         </div>
+         <div class="tx20 tx-j mb20">Card titles are used by adding .card-title to a <h*> tag. In the same way, links are added and placed next to each other by adding .card-link to an <a> tag.
+          Subtitles are used by adding a .card-subtitle to a <h*> tag. If the .card-title and the .card-subtitle items are placed in a .card-body item, the card title and subtitle are aligned nicely.
+         </div>
+
+         <div class="card2 mb20">
+           <div class="card-body p20">
+             <h2 class="card-title">Card title</h2>
+             <h4 class="card-subtitle">Card subtitle</h4>
+             <p class="card-text tx-j">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <a class="mr10" href="#" class="card-link">Card link</a>
+             <a href="#" class="card-link">Another link</a>
+           </div>
+         </div> <!-- end of div class="card2" --> 
+         <div class="code_xmp_area grow1 mb20">
+           <xmp><div class="card" style="width: 18rem;"></xmp>
+           <xmp>    <div class="card-body"></xmp>
+           <xmp>        <h5 class="card-title">Card title</h5></xmp>
+           <xmp>        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6></xmp>
+           <xmp>        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p></xmp>
+           <xmp>        <a href="#" class="card-link">Card link</a></xmp>
+           <xmp>        <a href="#" class="card-link">Another link</a></xmp>
+           <xmp>    </div></xmp>
+           <xmp></div></xmp>
+         </div>
+       </div> <!-- end of div class="cards" -->
+
+       <!-- Pagination section starts here -->
+       <div class="pagination_div mb50">
+         <div class="tx48 c-str-b">Pagination
+         </div>
+         <div class="tx24 tx-j mb20">Documentation and examples for showing pagination to indicate a series of related content exists across multiple pages.
+         </div>
+         <div class="tx36 mb10">Overview
+         </div>
+         <div class="tx20 tx-j mb20">We use a large block of connected links for our pagination, making links hard to miss and easily scalable—all while providing large hit areas. Pagination is built with list HTML elements so screen readers can announce the number of available links. Use a wrapping <span><span><</span>nav<span>></span></span> element to identify it as a navigation section to screen readers and other assistive technologies.
+           <br><br>
+           In addition, as pages likely have more than one such navigation section, it’s advisable to provide a descriptive <span>aria-label</span> for the <span><span><</span>nav<span>></span></span> to reflect its purpose. For example, if the pagination component is used to navigate between a set of search results, an appropriate label could be <span>aria-label="Search results pages"</span>.
+         </div>
+       <!-- Pagination example section -->
+       <div class="pagination_btns flex a-center">
+         <div class="flex row left ml20">
+           <div class="pgn_btn br-left mr0">Previous             
+           </div>
+           <div class="pgn_btn mr0">1             
+           </div>
+           <div class="pgn_btn mr0">2             
+           </div>
+           <div class="pgn_btn mr0">3             
+           </div>
+           <div class="pgn_btn br-right">Next             
+           </div>
+         </div> <!-- end of div class="flex row left ml20" -->
+       </div> <!-- end of div class="pagination_btns" -->
+       <!-- Pagination code example -->
+       <div class="code_xmp_area grow1">
+         <xmp><nav aria-label="Page navigation example"></xmp>
+         <xmp>   <ul class="pagination"></xmp>
+         <xmp>       <li class="page-item"><a class="page-link" href="#">Previous</a></li></xmp>
+         <xmp>       <li class="page-item"><a class="page-link" href="#">1</a></li></xmp>
+         <xmp>       <li class="page-item"><a class="page-link" href="#">2</a></li></xmp>
+         <xmp>       <li class="page-item"><a class="page-link" href="#">3</a></li></xmp>
+         <xmp>       <li class="page-item"><a class="page-link" href="#">Next</a></li></xmp>
+         <xmp>   </ul></xmp>
+         <xmp></nav></xmp>
+       </div>
+       </div> <!-- end of div class="pagination" -->
+
+       <!-- Navbar section starts here -->
+       <div class="navbar mb50">
+         <div class="tx48 c-str-b">Navbar
+         </div>
+         <div class="tx24 tx-j mb20">Documentation and examples for Crocstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin.
+         </div>
+         <div class="tx36 mb10">How it works
+         </div>
+         <div class="tx20 tx-j mb20">
+           Here’s what you need to know before getting started with the navbar:
+           <ul>
+             <li>Navbars require a wrapping <span>.navbar</span> with <span>.navbar-expand{-sm|-md|-lg|-xl|-xxl}</span> for responsive collapsing and <span class="undrln-bl">color scheme</span> classes.
+             </li>
+             <li>Navbars and their contents are fluid by default. Change the <span class="undrln-bl">container</span> to limit their horizontal width in different ways.
+             </li>
+             <li>Use our <span class="undrln-bl">spacing</span> and <span class="undrln-bl">flex</span> utility classes for controlling spacing and alignment within navbars.
+             </li>Navbars are responsive by default, but you can easily modify them to change that. Responsive behavior depends on our Collapse JavaScript plugin.
+             <li>Ensure accessibility by using a <span><</span><span>nav</span><span>></span> element or, if using a more generic element such as a <span><</span><span>div</span><span>></span>, add a <span>role="navigation"</span> to every navbar to explicitly identify it as a landmark region for users of assistive technologies.
+             </li>
+             <li>Indicate the current item by using <span>aria-current="page"</span> for the current page or <span>aria-current="true"</span> for the current item in a set.
+             </li>
+           </ul>
+         </div>
+         <div class="tx36 mb10">Supported content
+         </div>
+         <div class="tx20 tx-j mb20">
+           Navbars come with built-in support for a handful of sub-components. Choose from the following as needed:
+           <ul>
+             <li><span>.navbar-brand</span> for your company, product, or project name.
+             </li>
+             <li><span>.navbar-nav</span> for a full-height and lightweight navigation (including support for dropdowns).
+             </li>
+             <li><span>.navbar-toggler</span> for use with our collapse plugin and other <span class="undrln-bl">navigation toggling</span> behaviors.
+             </li>Flex and spacing utilities for any form controls and actions.
+             <li><span>.navbar-text</span> for adding vertically centered strings of text.
+             </li>
+             <li><span>.collapse.navbar-collapse</span> for grouping and hiding navbar contents by a parent breakpoint.
+             </li>
+             <li>Add an optional <span>.navbar-scroll</span> to set a <span>max-height</span> and <span class="undrln-bl">scroll expanded navbar content.</span>
+             </li>
+           </ul>
+           Here’s an example of all the sub-components included in a responsive light-themed navbar that automatically collapses at the <span>lg</span> (large) breakpoint.
+         </div>
+         <!-- Navbar1 example section -->
+         <div class="nvbr-cont flex row a-center">
+           <div class="nvbr-dv-wrp flex row evenly a-center">
+             <div class="nvbr-dv c-b tx20 ml15 mr30">Navbar
+             </div>
+             <div class="nvbr-dv c-b tx16 mr20">Home
+             </div>
+             <div class="nvbr-dv c-dg tx16 mr20">Link
+             </div>
+             <!-- Dropdown Section of Navbar -->
+             <div class="dropdown flex row a-center">
+               <div class="nvbr-dv c-dg tx16">Dropdown
+               </div>
+               <div class="nvbr-dv-ic mr20">
+                 <i class="fas fa-caret-down"></i>
+               </div>
+               <div class="dropdown-content">
+                 <a href="#">Action</a>
+                 <a href="#">Another Action</a>
+                 <a href="#">Something else here</a>
+               </div>
+             </div> <!-- end of div class="dropdown" -->
+             <div class="nvbr-dv c-lg tx16 mr50">Disabled
+             </div>
+             <!-- Search section of navbar1 -->
+             <div class="flex row a-center">
+               <div class="srch-plc-hldr c-dg flex a-center mr10">
+                 <input class="inp tx16" type="text" placeholder="Search" onclick="msg()">
+               </div>
+               <div class="srch-btn c-gr tx16 flex center a-center mr15">Search <!-- search button div -->                    
+               </div>
+             </div> <!-- end of search section of navbar1 -->
+           </div> <!-- end of div class="nvbr-dv-wrp" div" -->
+         </div> <!-- end of div class="nvbr-cont" -->
+         <!-- Navbar1 code example -->
+         <div class="code_xmp_area mb20">
+           <xmp><nav class="navbar navbar-expand-lg navbar-light bg-light"></xmp>
+           <xmp>   <div class="container-fluid"></xmp>
+           <xmp>       <a class="navbar-brand" href="#">Navbar</a></xmp>
+           <xmp>       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></xmp>
+           <xmp>           <span class="navbar-toggler-icon"></span></xmp>
+           <xmp>       </button></xmp>
+           <xmp>       <div class="collapse navbar-collapse" id="navbarSupportedContent"></xmp>
+           <xmp>           <ul class="navbar-nav me-auto mb-2 mb-lg-0"></xmp>
+           <xmp>               <li class="nav-item"></xmp>
+           <xmp>                   <a class="nav-link active" aria-current="page" href="#">Home</a></xmp>
+           <xmp>               </li></xmp>
+           <xmp>               <li class="nav-item"></xmp>
+           <xmp>                   <a class="nav-link" href="#">Link</a></xmp>
+           <xmp>               </li></xmp>
+           <xmp>               <li class="nav-item dropdown"></xmp>
+           <xmp>                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"></xmp>
+           <xmp>                       Dropdown</xmp>
+           <xmp>                   </a></xmp>
+           <xmp>                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown"></xmp>
+           <xmp>                       <li><a class="dropdown-item" href="#">Action</a></li></xmp>
+           <xmp>                       <li><a class="dropdown-item" href="#">Another action</a></li></xmp>
+           <xmp>                       <li><hr class="dropdown-divider"></li></xmp>
+           <xmp>                       <li><a class="dropdown-item" href="#">Something else here</a></li></xmp>
+           <xmp>                   </ul></xmp>
+           <xmp>               </li></xmp>
+           <xmp>               <li class="nav-item"></xmp>
+           <xmp>                   <a class="nav-link disabled">Disabled</a></xmp>
+           <xmp>               </li></xmp>
+           <xmp>             </ul></xmp>
+           <xmp>             <form class="d-flex"></xmp>
+           <xmp>               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></xmp>
+           <xmp>               <button class="btn btn-outline-success" type="submit">Search</button></xmp>
+           <xmp>             </form></xmp>
+           <xmp>       </div></xmp>
+           <xmp>     </div></xmp>
+           <xmp></nav></xmp>
+         </div> <!-- end of div class="code_xmp_area" -->
+
+         <!-- Navbar2 section starts here -->
+         <div class="tx36 mb10">Nav
+         </div>
+         <div class="tx20 tx-j mb20">
+           Navbar navigation links build on our <span>.nav</span> options with their own modifier class and require the use of <span class="undrln-bl">toggler classes</span> for proper responsive styling. <b>Navigation in navbars will also grow to occupy as much horizontal space as possible</b> to keep your navbar contents securely aligned.
+           Add the <span>.active</span> class on <span>.nav-link</span> to indicate the current page.
+           Please note that you should also add the <span>aria-current</span> attribute on the active <span>.nav-link</span>.
+         </div>
+         <!-- Navbar2 example section -->
+         <div class="nvbr-cont flex row a-center">
+           <div class="nvbr-dv-wrp flex row evenly a-center">
+             <div class="nvbr-dv c-b tx20 ml15 mr30">Navbar
+             </div>
+             <div class="nvbr-dv c-b tx16 mr20">Home
+             </div>
+             <div class="nvbr-dv c-dg tx16 mr20">Features
+             </div>
+             <div class="nvbr-dv c-dg tx16 mr20">Pricing
+             </div>
+             <div class="nvbr-dv c-lg tx16 mr50">Disabled
+             </div>
+           </div> <!-- end of div class="nvbr-dv-wrp" -->
+         </div> <!-- end of div class="nvbr-cont" and navbar2 example section -->
+         <!-- Navbar2 code example -->
+         <div class="code_xmp_area grow1 mb50">
+           <xmp><nav class="navbar navbar-expand-lg navbar-light bg-light"></xmp>
+           <xmp>   <div class="container-fluid"></xmp>
+           <xmp>     <a class="navbar-brand" href="#">Navbar</a></xmp>
+           <xmp>     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"></xmp>
+           <xmp>       <span class="navbar-toggler-icon"></span></xmp>
+           <xmp>     </button></xmp>
+           <xmp>     <div class="collapse navbar-collapse" id="navbarNav"></xmp>
+           <xmp>       <ul class="navbar-nav"></xmp>
+           <xmp>         <li class="nav-item"></xmp>
+           <xmp>           <a class="nav-link active" aria-current="page" href="#">Home</a></xmp>
+           <xmp>         </li></xmp>
+           <xmp>         <li class="nav-item"></xmp>
+           <xmp>           <a class="nav-link" href="#">Features</a></xmp>
+           <xmp>         </li></xmp>
+           <xmp>         <li class="nav-item"></xmp>
+           <xmp>           <a class="nav-link" href="#">Pricing</a></xmp>
+           <xmp>         </li></xmp>
+           <xmp>         <li class="nav-item"></xmp>
+           <xmp>           <a class="nav-link disabled">Disabled</a></xmp>
+           <xmp>         </li></xmp>
+           <xmp>       </ul></xmp>
+           <xmp>     </div></xmp>
+           <xmp>  </div></xmp>
+           <xmp></nav></xmp>
+         </div> <!-- end of div class="code_xmp_area" -->
+       </div> <!--end of div class="navbar" and navbar section -->
+
+       <!-- Modal section starts here -->
+       <div class="modal mb50">
+         <div class="tx48 c-str-b">Modal
+         </div>
+         <div class="tx24 tx-j mb20">Use Bootstrap’s JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content.
+         </div>
+         <div class="tx36 mb10">How it works
+         </div>
+         <div class="tx20 tx-j mb20">
+           Before getting started with Bootstrap’s modal component, be sure to read the following as our menu options have recently changed.
+           <ul>
+             <li>Modals are built with HTML, CSS, and JavaScript. They’re positioned over everything else in the document and remove scroll from the <span><</span><span>body</span><span>></span>so that modal content scrolls instead.
+             </li>
+             <li>Clicking on the modal “backdrop” will automatically close the modal.
+             </li>
+             <li>Bootstrap only supports one modal window at a time. Nested modals aren’t supported as we believe them to be poor user experiences.
+             </li>
+             <li>Modals use <span>position: fixed</span>, which can sometimes be a bit particular about its rendering. Whenever possible, place your modal HTML in a top-level position to avoid potential interference from other elements. You’ll likely run into issues when nesting a <span>.modal</span> within another fixed element.
+             </li>
+             <li>Once again, due to <span>position: fixed</span>, there are some caveats with using modals on mobile devices. <span class="undrln-bl">See our browser support docs</span> for details.
+             </li>
+             <li>Due to how HTML5 defines its semantics, <span class="undrln-bl">the autofocus HTML attribute</span> has no effect in Bootstrap modals. To achieve the same effect, use some custom JavaScript:
+             </li>
+           </ul>
+         </div> <!-- end of div class="tx20 tx-j mb20" -->
+         <!-- Modal JS code example -->
+         <div class="code_xmp_area grow1 mb20">
+           <xmp>var myModal = document.getElementById('myModal')</xmp>
+           <xmp>var myInput = document.getElementById('myInput')</xmp>
+           <xmp>                                                </xmp>
+           <xmp>myModal.addEventListener('shown.bs.modal', function () {</xmp>
+           <xmp>  myInput.focus()</xmp>
+           <xmp>})</xmp>
+         </div> <!-- end of div class="code_xmp_area" -->
+         <div class="tx36 mb10">Examples
+         </div>
+         <div class="tx36 mb10">Modal components
+         </div>
+         <!-- Modal example section -->
+         <div class="mdl-cont flex row center a-center">
+           <div class="mdl-dv-wrp flex column ">
+             <div class="mdl-dv flex row space-btw a-center tx20">
+               <div>
+                 <b>Modal title</b>
+               </div>
+               <div>
+                 <i class="fas fa-times" style="font-size:24px"></i>
+               </div>
+             </div> <!-- end of div class="mdl-dv" -->
+             <div class="mdl-dv flex c-b tx16">Modal body text goes here
+             </div> <!-- end of div class="mdl-dv" -->
+             <div class="mdl-dv flex row right">
+               <div class="mr10">
+                 <button type="button" class="btn btn-close">Close</button>
+               </div>
+               <div>
+                 <button type="button" class="btn btn-save">Save changes</button>
+               </div>
+             </div> <!-- end of div class="mdl-dv" -->
+           </div> <!-- end of div class="mdl-dv-wrp" -->
+         </div> <!-- end of div class="mdl-cont" and modal example section -->
+         <!-- Modal code example section -->
+         <div class="code_xmp_area grow1 mb20">
+           <xmp><div class="modal" tabindex="-1"></xmp>
+           <xmp>  <div class="modal-dialog"></xmp>
+           <xmp>    <div class="modal-content"></xmp>
+           <xmp>      <div class="modal-header"></xmp>
+           <xmp>        <h5 class="modal-title">Modal title</h5></xmp>
+           <xmp>        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></xmp>
+           <xmp>      </div></xmp>
+           <xmp>      <div class="modal-body"></xmp>
+           <xmp>        <p>Modal body text goes here.</p></xmp>
+           <xmp>      </div></xmp>
+           <xmp>      <div class="modal-footer"></xmp>
+           <xmp>        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></xmp>
+           <xmp>        <button type="button" class="btn btn-primary">Save changes</button></xmp>
+           <xmp>      </div></xmp>
+           <xmp>    </div></xmp>
+           <xmp>   </div></xmp>
+           <xmp></div></xmp>
+         </div> <!-- End of modal code_xmp_area -->
+         <!-- Modal live demo section starts here -->
+         <div class="tx36 mb10">Live demo
+         </div>
+         <div class="tx20 tx-j mb20">Toggle a working modal demo by clicking the button below. It will slide down and fade in from the top of the page.
+         </div>
+         <!-- modal demo launch button -->
+         <div class="mdl-cont flex left a-center p30">
+           <div class="mr10">
+             <button type="button" class="btn btn-launch">Launch demo modal</button>
+           </div>
+         </div>
+       </div> <!-- end of div class="modal" & modal section -->
+
+       <!-- Progress bars section starts here -->
+       <div class="progress mb50">
+         <div class="tx48 c-str-b">Progress
+         </div>
+         <div class="tx24 tx-j mb20">Documentation and examples for using Bootstrap custom progress bars featuring support for stacked bars, animated backgrounds, and text labels.
+         </div>
+         <div class="tx36 mb10">How it works
+         </div>
+         <div class="tx20 tx-j mb20">
+           Progress components are built with two HTML elements, some CSS to set the width, and a few attributes. We don’t use <span class="undrln-bl">the HTML5 <span class="undrln-bl"><</span><span class="undrln-bl">progress</span><span class="undrln-bl">></span> element</span>, ensuring you can stack progress bars, animate them, and place text labels over them.
+           <ul>
+             <li>We use the <span>.progress</span> as a wrapper to indicate the max value of the progress bar.
+             </li>
+             <li>We use the inner <span>.progress-bar</span> to indicate the progress so far.
+             </li>
+             <li>The <span>.progress-bar</span> requires an inline style, utility class, or custom CSS to set their width.
+             </li>
+             <li>The <span>.progress-bar</span> also requires some role and aria attributes to make it accessible.
+             </li>
+           </ul>
+           Put that all together, and you have the following examples.
+         </div> <!-- end of div class="tx20 tx-j mb20" -->
+         <!-- Progress bars example section -->
+         <div class="prgr-br-cont flex column center a-center">
+           <div class="prgr-br-wrp mb15">                     
+           </div>
+           <div class="prgr-br-wrp flex mb15">
+             <div class="prgr-br-dv grow1">               
+             </div>
+             <div class="grow3">               
+             </div>
+           </div> <!-- end of div class="prgr-br-wrp" -->
+           <div class="prgr-br-wrp flex mb15">
+             <div class="prgr-br-dv grow1">               
+             </div>
+             <div class="grow1">               
+             </div>
+           </div> <!-- end of div class="prgr-br-wrp" -->
+           <div class="prgr-br-wrp flex">
+             <div class="prgr-br-dv grow1">               
+             </div>
+             <div class="grow0">               
+             </div>
+           </div> <!-- end of div class="prgr-br-wrp" -->
+         </div> <!-- end of div class="prgr-br-cont" -->
+         <!-- Progress bars code example section -->
+         <div class="code_xmp_area grow1 mb20">
+           <xmp><div class="progress"></xmp>
+           <xmp>  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div></xmp>
+           <xmp></div></xmp>
+           <xmp><div class="progress"></xmp>
+           <xmp>  <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div></xmp>
+           <xmp></div></xmp>
+           <xmp><div class="progress"></xmp>
+           <xmp>  <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div></xmp>
+           <xmp></div></xmp>
+           <xmp><div class="progress"></xmp>
+           <xmp>  <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div></xmp>
+           <xmp></div></xmp>
+           <xmp><div class="progress"></xmp>
+           <xmp>  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div></xmp>
+           <xmp></div></xmp>
+         </div> <!-- end of div class="code_xmp_area" -->
+         <div class="tx36 mb10">Labels
+         </div>
+         <div class="tx20 tx-j mb20">Add labels to your progress bars by placing text within the <span>.progress-bar</span>.
+         </div>
+         <!-- Progress bar with label example section -->
+         <div class="prgr-br-cont flex column center a-center">
+           <div class="prgr-br-wrp flex">
+             <div class="prgr-br-dv grow1 txt-center tx16">25%               
+             </div> <!-- end of div class="prgr-br-dv" -->
+             <div class="grow3">              
+             </div>
+           </div> <!-- end of div class="prgr-br-wrp" -->
+         </div> <!-- end of div class="prgr-br-cont" -->
+       </div> <!-- end of div class="progress" & progress bars section -->
+
+       <!-- Spinners section starts here -->
+       <div class="spinners mb50">
+         <div class="tx48 c-str-b">Spinners
+         </div>
+         <div class="tx24 tx-j mb20">Indicate the loading state of a component or page with Bootstrap spinners, built entirely with HTML, CSS, and no JavaScript.
+         </div>
+         <div class="tx36 mb10">About
+         </div>
+         <div class="tx20 tx-j mb20">
+           Bootstrap “spinners” can be used to show the loading state in your projects. They’re built only with HTML and CSS, meaning you don’t need any JavaScript to create them. You will, however, need some custom JavaScript to toggle their visibility. Their appearance, alignment, and sizing can be easily customized with our amazing utility classes.<br><br>
+           For accessibility purposes, each loader here includes <span>role="status"</span> and a nested <span><</span><span>span class="visually-hidden"</span><span>></span><span>Loading...</span><span><</span><span>/span</span><span>></span>.
+         </div>
+         <div class="tx36 mb10">Border spinner
+         </div>
+         <div class="tx20 tx-j mb20">Use the border spinners for a lightweight loading indicator.
+         </div>
+         <!-- spinner 1 container -->
+         <div class="spnr-cont">
+          <div class="spinner1">
+          </div>
+        </div> <!-- end of div class="spnr-cont" -->
+         <!-- code example of spinner1 -->
+         <div class="code_xmp_area grow1 mb20">
+           <xmp><div class="spinner-border" role="status"></xmp>
+           <xmp>  <span class="visually-hidden">Loading...</span></xmp>
+           <xmp></div></xmp>
+         </div> <!-- end of div class="code_xmp_area" -->
+         <div class="tx36 mb10">Add more spinners
+         </div>
+         <!-- spinner 2 container -->
+         <div class="spnr-cont">
+           <div class="spinner2">
+           </div>
+         </div> <!-- end of div class="spnr-cont" -->
+         <!-- code example of spinner2 -->
+         <div class="code_xmp_area grow1 mb20">
+           <xmp>.spinner2 {</xmp>
+           <xmp>border: 6px solid #f3f3f3;</xmp>
+           <xmp>border-radius: 50%;</xmp>
+           <xmp>border-top: 6px solid cyan;</xmp>
+           <xmp>border-bottom: 6px solid cyan;</xmp>
+           <xmp>width: 30px;</xmp>
+           <xmp>height: 30px;</xmp>
+           <xmp>-webkit-animation: spin2 1s linear infinite;</xmp>
+           <xmp>animation: spin2 1s linear infinite;</xmp>
+           <xmp>}</xmp>
+           <xmp> </xmp>
+           <xmp>@-webkit-keyframes spin2 {</xmp>
+           <xmp>0% { -webkit-transform: rotate(0deg); }</xmp>
+           <xmp>100% { -webkit-transform: rotate(360deg); }</xmp>
+           <xmp>}</xmp>
+         </div> <!-- end of div class="code_xmp_area" -->
+         <!-- spinner3 container -->
+         <div class="spnr-cont">
+           <div class="spinner3">
+           </div>
+         </div> <!-- end of div class="spnr-cont" -->
+         <!-- code example of spinner3 -->
+         <div class="code_xmp_area grow1 mb20">
+           <xmp>.spinner3 {</xmp>
+           <xmp>border: 6px solid #f3f3f3;</xmp>
+           <xmp>border-radius: 50%;</xmp>
+           <xmp>border-top: 6px solid blue;</xmp>
+           <xmp>border-right: 6px solid yellowgreen;</xmp>
+           <xmp>border-bottom: 6px solid orange;</xmp>
+           <xmp>border-left: 6px solid pink;</xmp>
+           <xmp>width: 30px;</xmp>
+           <xmp>height: 30px;</xmp>
+           <xmp>-webkit-animation: spin3 2s linear infinite;</xmp>
+           <xmp>animation: spin3 2s linear infinite;</xmp>
+           <xmp>}</xmp>
+         </div> <!-- end of div class="code_xmp_area" -->
+       </div> <!-- end of div class="spinners" -->
+
+       <!-- Scrollspy section starts here -->
+       <div class="scrollspy mb50">
+        <div class="tx48 c-str-b">Scrollspy
+        </div>
+        <div class="tx24 tx-j mb20">Automatically update Bootstrap navigation or list group components based on scroll position to indicate which link is currently active in the viewport.
+        </div>
+        <div class="tx36 mb10">How it works
+        </div>
+        <div class="tx20 tx-j mb20">
+          Scrollspy has a few requirements to function properly:
+          <ul>
+            <li>It must be used on a Bootstrap <span class="undrln-bl">nav component</span> or <span class="undrln-bl">list group</span>.
+            </li>
+            <li>Scrollspy requires <span>position: relative;</span> on the element you’re spying on, usually the <span><</span><span>body</span><span>></span>.
+            </li>
+            <li>Anchors (<span><</span><span>a</span><span>></span>) are required and must point to an element with that <span>id</span>.
+            </li>
+          </ul>
+          When successfully implemented, your nav or list group will update accordingly, moving the .active class from one item to the next based on their associated targets.
+        </div> <!-- end of div class="tx20 tx-j mb20" -->
+        <div class="tx36 mb10">Example in navbar
+        </div>
+        <div class="tx20 tx-j mb20">Scroll the area below the navbar and watch the active class change. The dropdown items will be highlighted as well.
+        </div>
+        <!-- Scrollspy in navbar section -->
+        <div class="scr-spy-cont flex row a-center">
+          <div class="nvbr-dv-wrp flex row evenly a-center">
+            <div class="nvbr-dv c-b tx20 ml15 mr30">Navbar
+            </div>
+          </div>
+          <div>
+          </div>
+        </div>
+
+       </div> <!-- end of div class="scrollspy" -->  
+     </div> <!--  end of div class="components" -->
+
+     <div class="util">
+     </div> <!-- end of div class="util" -->
+
+    </div> <!-- end of div class="content" --> 
+
+   </div> <!-- end of main div -->
+  </div> <!-- end of container div -->
+
+</body>
+
+</html>
